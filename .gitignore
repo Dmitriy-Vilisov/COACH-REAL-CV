@@ -1,0 +1,26 @@
+# Виртуальные окружения
+.venv/
+.venv_new/
+env/
+
+# Кэш Python и Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Веса моделей (скрипт скачивает их автоматически)
+*.pt
+
+# Сгенерированные результаты и временные файлы
+outputs/*.mp4
+temp_output.mp4
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Данные и видео (блокируем всё от греха подальше)
+data/coach/*.mp4
+data/user/*.mp4
+outputs/*.mp4
+temp_output.mp4
